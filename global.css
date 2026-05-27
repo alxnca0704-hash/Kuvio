@@ -66,6 +66,10 @@
     @apply mb-2.5 flex-row items-center justify-between;
   }
 
+  .home-header-title {
+    @apply text-5xl font-sans-extrabold text-accent;
+  }
+
   .home-user {
     @apply flex-row items-center;
   }
@@ -127,7 +131,7 @@
   }
 
   .upcoming-icon {
-    @apply size-14;
+    @apply size-12;
   }
 
   .upcoming-price {
