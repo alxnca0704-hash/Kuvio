@@ -24,7 +24,6 @@ export default function App() {
 
   return (
     <SafeAreaView className="flex-1 p-5  bg-background ">
-      <ListHeading title="All Subscription" />
       <FlatList
         ListHeaderComponent={() => (
           <>
@@ -66,7 +65,7 @@ export default function App() {
               />
             </View>
 
-            <ListHeading title="All Subscription" />
+            <ListHeading title="All Subscriptions" />
           </>
         )}
         data={HOME_SUBSCRIPTIONS}
